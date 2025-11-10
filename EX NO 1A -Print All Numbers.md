@@ -7,17 +7,11 @@ To Write a Java program that takes an integer input N from the user and prints a
 ## Algorithm
 
 1. Start the program.
-
 2.Create a Scanner object to read input from the user.
-
 3.Prompt the user to enter an integer N.
-
 4.Use a for loop to iterate from 1 to N.
-
 5.In each iteration, print the current number followed by a space.
-
 6.End the program.
-
 
 ## Program:
 ```
