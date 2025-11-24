@@ -1,17 +1,21 @@
-EX 1B Power of 2
-DATE: 19/11/2025
-AIM:
+
+# EX 1B Power of 2
+## DATE: 19/11/2025
+## AIM:
 To write a Java program to for given constraints.Given an integer n, return true if it is a power of two. Otherwise, return false.
 
 An integer n is a power of two, if there exists an integer x such that n == 2x.
 
-Algorithm
-Start the program and import the Scanner class to take input from the user.
-Read an integer n using the Scanner object.
-Check if n is less than or equal to 0 — if true, return false.
-Use the bitwise operation (n & (n - 1)) == 0 to check if n is a power of two.
-Print true if the condition holds, otherwise print false.
-Program:
+## Algorithm
+1. Start the program and import the `Scanner` class to take input from the user.
+2. Read an integer `n` using the `Scanner` object.
+3. Check if `n` is less than or equal to 0 — if true, return `false`.
+4. Use the bitwise operation `(n & (n - 1)) == 0` to check if `n` is a power of two.
+5. Print `true` if the condition holds, otherwise print `false`.
+
+
+## Program:
+```
 /*
 Developed by: Dharsan R
 Register Number:  212223100003
@@ -41,7 +45,12 @@ public class Solution {
     }
 }
 
-Output:
-image
-Result:
+```
+
+## Output:
+
+<img width="419" height="186" alt="image" src="https://github.com/user-attachments/assets/f9c06840-da38-4cd9-ba23-55b69673e617" />
+
+
+## Result:
 The program successfully implemented and the expected output is verified.
